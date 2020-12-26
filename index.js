@@ -77,7 +77,7 @@ $('document').ready(() => {
           menuIsOpen = false;
       }
   });
-  let firebaseConfig = {
+/*  let firebaseConfig = {
       apiKey: 'AIzaSyCuflF3aJF4Nrm7O2anmBKmNh7zmWMEDac',
       authDomain: 'portfolio-4bd06.firebaseapp.com',
       databaseURL: 'https://portfolio-4bd06.firebaseio.com',
@@ -112,5 +112,5 @@ $('document').ready(() => {
             return;
         });
     }
-  })
+  }) */
 })
