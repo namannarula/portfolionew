@@ -1,0 +1,1547 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  /* <----- THE SECRET ---- */
+}
+
+body {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow-x: hidden;
+  position: relative;
+}
+
+body header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body header #menuItems {
+  text-align: center;
+  width: 14%;
+  margin: 15vh auto 0 auto;
+  font-family: "Montserrat", sans-serif;
+  display: none;
+}
+
+body header #menuItems #menuItemLinks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+body header #menuItems #menuItemLinks a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 1.3em;
+  text-align: left;
+  position: relative;
+}
+
+body header #menuItems #menuItemLinks a:hover::before {
+  opacity: 1;
+  width: 40%;
+}
+
+body header #menuItems #menuItemLinks a::before {
+  width: 0%;
+  height: 3px;
+  content: '';
+  display: block;
+  background-color: #EE4540;
+  position: absolute;
+  border-radius: 200px;
+  opacity: 0;
+  bottom: -4%;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+body header #menuItems #menuItemContact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+  grid-gap: 2em;
+  margin-top: 1.4em;
+}
+
+body header #menuItems #menuItemContact a {
+  width: 31px;
+  height: 31px;
+  display: block;
+  text-decoration: none;
+  background: url("../assets/linkedin.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+body header #menuItems #menuItemContact a:nth-child(2) {
+  background: url("../assets/github.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body header #menuItems #menuItemContact a:nth-child(3) {
+  background: url("../assets/twitter.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body header #menuItems #menuItemContact a:nth-child(4) {
+  background: url("../assets/instagram.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body header #menuItems #menuItemContact a:nth-child(5) {
+  background: url("../assets/emailIcon.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+body header .headerContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 94.5% 5.5%;
+      grid-template-columns: 94.5% 5.5%;
+  width: 100%;
+  padding: 10px;
+  z-index: 100;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body header .headerContainer .headerLogo {
+  width: 70px;
+  height: 70px;
+  background-image: url("../assets/personalLogo.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body header .headerContainer .headerMenuIcon {
+  width: 70px;
+  height: 70px;
+  border: 1px solid white;
+  padding-top: 30%;
+  border-radius: 300px;
+  cursor: pointer;
+  background: url("../assets/menuIcon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 3;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body #showcase {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  -ms-grid-columns: 70% 30%;
+      grid-template-columns: 70% 30%;
+}
+
+body #showcase #showcaseHeading {
+  background-color: #EE4540;
+  position: relative;
+  padding: 20% 20px;
+}
+
+body #showcase #showcaseHeading::after {
+  width: 110%;
+  height: 60%;
+  left: 60%;
+  display: block;
+  content: '';
+  top: 20%;
+  background: url("../assets/testShowcase.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 10;
+}
+
+body #showcase #showcaseHeading p:nth-child(1) {
+  color: rgba(255, 255, 255, 0.54);
+  padding-bottom: 3%;
+  font-size: 1.2em;
+}
+
+body #showcase #showcaseHeading h1:nth-child(2) {
+  color: white;
+  font-size: 5em;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+body #showcase #showcaseHeading p:nth-child(3) {
+  color: white;
+  font-size: 1.3em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 4px 0;
+  text-transform: capitalize;
+}
+
+body #showcase #showcaseHeading a, body #showcase #showcaseHeading button {
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2em;
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 12px 90px 12px 10px;
+  text-align: left;
+  border-radius: 200px;
+  font-weight: bolder;
+  color: #EE4540;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+  color: #EE4540;
+  text-decoration: none;
+}
+
+body #showcase #showcaseHeading a:hover::after, body #showcase #showcaseHeading button:hover::after {
+  -webkit-animation: downloadAnimation 0.6s 1 ease-in-out;
+          animation: downloadAnimation 0.6s 1 ease-in-out;
+}
+
+body #showcase #showcaseHeading a::after, body #showcase #showcaseHeading button::after {
+  width: 20px;
+  height: 20px;
+  display: block;
+  content: '';
+  background: url("../assets/downloadIcon.svg");
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  position: absolute;
+  top: 27%;
+  right: 7%;
+}
+
+body #showcase #showcaseHeading a::before, body #showcase #showcaseHeading button::before {
+  width: 20px;
+  height: 20px;
+  display: block;
+  content: '';
+  background: #EE4540;
+  background-position: center;
+  background-size: cover;
+  -webkit-transform: scale(1.59);
+          transform: scale(1.59);
+  position: absolute;
+  top: 27%;
+  right: 7%;
+  border-radius: 200px;
+}
+
+body #showcase #showcaseHeading a::after, body #showcase #showcaseHeading a::before {
+  display: none;
+}
+
+body #showcase #showcaseHeading a {
+  padding: 0;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks {
+  width: 40%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 0;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(1) {
+  background: url("../assets/linkedin.svg") center no-repeat;
+  background-size: contain;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
+  background: url("../assets/github.svg") center no-repeat;
+  background-size: contain;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(3) {
+  background: url("../assets/twitter.svg") center no-repeat;
+  background-size: contain;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(4) {
+  background: url("../assets/instagram.svg") center no-repeat;
+  background-size: contain;
+}
+
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(5) {
+  background: url("../assets/emailIcon.svg") center no-repeat;
+  background-size: contain;
+}
+
+body #showcase #showcaseAside {
+  background-color: #510A32;
+  position: relative;
+  z-index: 1;
+}
+
+body #showcase #showcaseAside #socialIcons {
+  position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  bottom: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25%)[4];
+      grid-template-columns: repeat(4, 25%);
+}
+
+body #showcase #showcaseAside #socialIcons a {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin: 1em;
+}
+
+body #showcase #showcaseAside #socialIcons #lnkdn {
+  background: url("../assets/linkedin.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #showcase #showcaseAside #socialIcons #gthb {
+  background: url("../assets/github.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #showcase #showcaseAside #socialIcons #twt {
+  background: url("../assets/twitter.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #showcase #showcaseAside #socialIcons #ig {
+  background: url("../assets/instagram.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #quote {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  font-family: "Montserrat", sans-serif;
+  padding: 17% 4%;
+}
+
+body #quote div {
+  width: 60%;
+  line-height: 1.5em;
+  font-size: 1.19em;
+  position: relative;
+}
+
+body #quote div:nth-child(1)::after {
+  width: 200px;
+  height: 200px;
+  content: '';
+  display: block;
+  background: url("../assets/quote(1).svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  right: -90%;
+  top: 10%;
+  opacity: 0.3;
+}
+
+body #quote #quoteTwo {
+  width: 80%;
+  padding-left: 30%;
+  margin-top: 30%;
+}
+
+body #goods {
+  height: 100vh;
+  background-color: #EE4540;
+  margin-bottom: 9em;
+  position: relative;
+}
+
+body #goods::after {
+  width: 260px;
+  height: 260px;
+  content: '';
+  display: block;
+  background: url("../assets/dotsPolographWhite.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  opacity: 0.4;
+}
+
+body #goods #goodsList {
+  font-family: "Montserrat", sans-serif;
+  background-color: #510A32;
+  width: 80%;
+  -webkit-transform: translateY(23%) translateX(20%);
+          transform: translateY(23%) translateX(20%);
+  padding: 2% 3%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  position: relative;
+  z-index: 4;
+}
+
+body #goods #goodsList div {
+  margin: 3em;
+  color: white;
+}
+
+body #goods #goodsList div h1 {
+  font-weight: bolder;
+  margin: 1em 0;
+  position: relative;
+}
+
+body #goods #goodsList div h1::before {
+  width: 30px;
+  height: 30px;
+  display: block;
+  content: '';
+  background-position: center;
+  background-size: contain;
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  position: absolute;
+  top: -160%;
+}
+
+body #goods #goodsList div p {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+body #goods #goodsList div:nth-child(1) h1::before {
+  background: url("../assets/criticalThinking.svg");
+}
+
+body #goods #goodsList div:nth-child(2) h1::before {
+  background: url("../assets/intricateDesign.svg");
+}
+
+body #goods #goodsList div:nth-child(3) h1::before {
+  background: url("../assets/peoplePerson.svg");
+}
+
+body #myStack {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  padding: 0% 8%;
+  margin-top: 16%;
+  margin-bottom: 10em;
+}
+
+body #myStack .stackHead {
+  color: #EE4540;
+  font-size: 2em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+body #myStack #tracks {
+  text-align: center;
+}
+
+body #myStack #tracks #track {
+  text-align: left;
+  width: 80%;
+  margin: 10vh auto;
+}
+
+body #myStack #tracks #track #maintrack {
+  height: 13px;
+  background-color: #E1E1E1;
+  border-radius: 200px;
+  position: relative;
+}
+
+body #myStack #tracks #track #maintrack::before {
+  height: 13px;
+  background-color: #EE4540;
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  border-radius: 200px;
+}
+
+body #myStack #tracks #track:nth-child(1) ::before {
+  width: 95%;
+}
+
+body #myStack #tracks #track:nth-child(2) ::before {
+  width: 80%;
+}
+
+body #myStack #tracks #track:nth-child(3) ::before {
+  width: 45%;
+}
+
+body #myStack #tracks #track:nth-child(4) ::before {
+  width: 36%;
+}
+
+body #myStack #tracks #track:nth-child(5) ::before {
+  width: 65%;
+}
+
+body #portfolio {
+  background-color: #EE4540;
+  font-family: "Montserrat", sans-serif;
+  padding: 5% 7%;
+  position: relative;
+}
+
+body #portfolio::before {
+  width: 100vw;
+  height: 300vh;
+  content: '';
+  display: block;
+  background: url("../assets/lineConnect.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  -webkit-transform: rotate(160deg) scaleX(-5);
+          transform: rotate(160deg) scaleX(-5);
+}
+
+body #portfolio #portfolioHead {
+  font-size: 1.9em;
+  color: white;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioOne,
+body #portfolio #portfolioList #portFolioTwo,
+body #portfolio #portfolioList #portFolioThree,
+body #portfolio #portfolioList #portFolioFour,
+body #portfolio #portfolioList #portFolioFive,
+body #portfolio #portfolioList #portFolioSix {
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 5em 0 10em 0;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  grid-gap: 10em;
+  z-index: 100;
+  position: relative;
+  z-index: 0;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockImg {
+  height: 45vh;
+  width: 85vh;
+  background: url("../assets/tayoAina.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockImg::after,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg::after,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockImg::after,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockImg::after,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockImg::after,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/tayoAina.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText h1,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText h1,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText h1,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText h1,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText h1,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText h1 {
+  font-size: 2.3em;
+  margin-bottom: 1.3em;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText p,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText p,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText p,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText p,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText p,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText p {
+  line-height: 2em;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText a,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText a,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText a,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText a,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText a,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText a {
+  cursor: pointer;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText button,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText button,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText button,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText button,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText button,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText button {
+  padding: 2% 22% 2% 3%;
+  border: 1px solid transparent;
+  background-color: white;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 2em;
+  color: #EE4540;
+  position: relative;
+  border-radius: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText button:hover,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText button:hover,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText button:hover,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText button:hover,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText button:hover,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText button:hover {
+  border-radius: 0px;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+body #portfolio #portfolioList #portFolioOne #portfolioBlockText button::before,
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockText button::before,
+body #portfolio #portfolioList #portFolioThree #portfolioBlockText button::before,
+body #portfolio #portfolioList #portFolioFour #portfolioBlockText button::before,
+body #portfolio #portfolioList #portFolioFive #portfolioBlockText button::before,
+body #portfolio #portfolioList #portFolioSix #portfolioBlockText button::before {
+  width: 32px;
+  height: 32px;
+  content: '';
+  display: block;
+  background: url("../assets/viewIcon.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 7%;
+  top: 3%;
+  border-radius: 200px;
+}
+
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg {
+  background: url("../assets/snueb.io.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/snueb.io.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #portfolio #portfolioList #portFolioThree #portfolioBlockImg {
+  background: url("../assets/photowaka.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioThree #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/photowaka.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #portfolio #portfolioList #portFolioFour #portfolioBlockImg {
+  background: url("../assets/unsplashAPIProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioFour #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/unsplashAPIProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #portfolio #portfolioList #portFolioFive #portfolioBlockImg {
+  background: url("../assets/dictionaryProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioFive #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/dictionaryProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #portfolio #portfolioList #portFolioSix #portfolioBlockImg {
+  background: url("../assets/issProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+}
+
+body #portfolio #portfolioList #portFolioSix #portfolioBlockImg::after {
+  width: 100%;
+  height: 100%;
+  content: '';
+  display: block;
+  background: url("../assets/issProject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 15%;
+  right: -15%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+body #testimony {
+  padding: 1em 7%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body #testimony #testimonyHead {
+  font-size: 1.9em;
+  color: #EE4540;
+  margin-bottom: 2em;
+}
+
+body #testimony #testimonyCards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+body #testimony #testimonyCards .testimonyCard {
+  width: 30vw;
+  margin: 3em auto;
+  position: relative;
+  cursor: pointer;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardImg {
+  width: 80px;
+  height: 80px;
+  background: url("../assets/sneubheadshot.jpg");
+  background-position: center;
+  background-size: contain;
+  border: 1px solid #EE4540;
+  border-radius: 200px;
+  position: absolute;
+  top: -17%;
+  left: -10%;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardTxt {
+  line-height: 1.6em;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border: 1.3px solid #EE4540;
+  padding: 2em 0.8em 0 0.8em;
+  border-radius: 5px;
+  -webkit-box-shadow: 6px 8px 4px rgba(107, 87, 87, 0.1);
+          box-shadow: 6px 8px 4px rgba(107, 87, 87, 0.1);
+  position: relative;
+  margin-bottom: 3em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardTxt::before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: rgba(238, 69, 64, 0.51);
+  display: block;
+  position: absolute;
+  z-index: -3;
+  top: -5%;
+  -webkit-box-shadow: 6px 8px 4px rgba(107, 87, 87, 0.1);
+          box-shadow: 6px 8px 4px rgba(107, 87, 87, 0.1);
+  border: 1px solid #EE4540;
+  left: -5%;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardTxt #testimonyCardName {
+  padding-top: 3em;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardTxt #testimonyCardName h1 {
+  color: #EE4540;
+}
+
+body #testimony #testimonyCards .testimonyCard #testimonyCardTxt #testimonyCardName p {
+  color: #1b1b1b;
+}
+
+body #testimony #testimonyCards .testimonyCard:nth-child(2) #testimonyCardImg {
+  background: url("../assets/tayoHeadshot.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #testimony #testimonyCards .testimonyCard:nth-child(3) #testimonyCardImg {
+  background: url("../assets/armstrongHeadshot.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+body #contact {
+  position: relative;
+}
+
+body #contact .contactHeading {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 1em 0;
+}
+
+body #contact .contactHeading h1 {
+  font-size: 4em;
+  color: #EE4540;
+}
+
+body #contact .contactHeading p {
+  font-size: 14px;
+}
+
+body #contact form {
+  width: 70%;
+  margin: 4em auto;
+}
+
+body #contact form div input, body #contact form div textarea {
+  display: block;
+  margin: 2em 0;
+  width: 60%;
+  font-size: 1.1em;
+  font-family: "Montserrat", sans-serif;
+  padding: 12px;
+  border: 1.3px solid #EE4540;
+  color: #7C7676;
+}
+
+body #contact form div textarea {
+  width: 90%;
+}
+
+body #contact form button {
+  background-color: #EE4540;
+  font-size: 0.9em;
+  padding: 2% 22% 2% 3%;
+  color: white;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 2em;
+  position: relative;
+  border-radius: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+body #contact form button:hover::before {
+  opacity: 1;
+  right: 27%;
+}
+
+body #contact form button::before {
+  width: 40px;
+  height: 40px;
+  -webkit-transform: scale(2.3);
+          transform: scale(2.3);
+  content: '';
+  display: block;
+  background: url("../assets/sendIcon.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 47%;
+  top: 14%;
+  border-radius: 200px;
+  opacity: 0;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+body #contact form #error::before {
+  width: 20px;
+  height: 30px;
+  display: block;
+  background-color: red;
+  content: ' ';
+}
+
+body #contact #errorMessage {
+  background-color: red;
+  padding: 0.42em;
+  font-size: 0.82em;
+  width: 50%;
+  display: inline-block;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0;
+}
+
+body footer {
+  background-color: #510A32;
+  padding-bottom: 2em;
+  text-align: center;
+  -webkit-clip-path: polygon(0 0, 100% 23%, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 23%, 100% 100%, 0% 100%);
+  padding-top: 10%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body footer #footerHead #footerLink {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 75%;
+  margin: 2em auto;
+  text-transform: uppercase;
+}
+
+body footer #footerHead #footerLink a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  display: block;
+}
+
+body footer #footerHead #footerLink a:hover::before {
+  opacity: 1;
+  width: 40%;
+  right: 30%;
+}
+
+body footer #footerHead #footerLink a::before {
+  width: 0%;
+  height: 3px;
+  content: '';
+  display: block;
+  background-color: #EE4540;
+  position: absolute;
+  top: 100%;
+  right: 30%;
+  opacity: 0;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+body footer #socialLink {
+  width: 35%;
+  margin: 8em auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body footer #socialLink a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/linkedin.svg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer #socialLink a:nth-child(2) {
+  background: url("../assets/github.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body footer #socialLink a:nth-child(3) {
+  background: url("../assets/twitter.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body footer #socialLink a:nth-child(4) {
+  background: url("../assets/instagram.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body footer #copyright {
+  color: white;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+  body header {
+    position: fixed;
+    z-index: 2000;
+  }
+  body header .headerContainer {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -ms-grid-columns: 90% 10%;
+        grid-template-columns: 90% 10%;
+    padding: 6px;
+    position: relative;
+    z-index: 0;
+  }
+  body header #menuItems {
+    width: 30%;
+  }
+  body #showcase {
+    height: 50vh;
+  }
+  body #showcase #showcaseHeading {
+    padding: 10em 12px;
+  }
+  body #showcase #showcaseHeading::after {
+    width: 100%;
+    height: 50%;
+    top: 30%;
+  }
+  body #showcase #showcaseHeading p:nth-child(1) {
+    color: white;
+    font-size: 0.82em;
+  }
+  body #showcase #showcaseHeading h1:nth-child(2) {
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+  body #showcase #showcaseHeading p:nth-child(3) {
+    font-size: 0.82em;
+    font-weight: 900;
+  }
+  body #showcase #showcaseHeading a, body #showcase #showcaseHeading button {
+    font-size: 0.92em;
+  }
+  body #showcase #showcaseHeading a::before, body #showcase #showcaseHeading button::before {
+    width: 19px;
+    height: 19px;
+  }
+  body #showcase #showcaseHeading a::after, body #showcase #showcaseHeading button::after {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+  body #quote {
+    height: auto;
+    padding: 12% 2%;
+  }
+  body #quote div {
+    width: 80%;
+    font-size: 0.99em;
+  }
+  body #quote div:nth-child(1)::after {
+    width: 120px;
+    height: 120px;
+    right: -30%;
+    top: 30%;
+  }
+  body #quote #quoteTwo {
+    padding-left: 10%;
+    margin-top: 80%;
+    width: 90%;
+  }
+  body #goods {
+    height: auto;
+  }
+  body #goods::after {
+    width: 90px;
+    height: 90px;
+    left: 0;
+  }
+  body #goods #goodsList {
+    width: 90%;
+    padding: 0;
+    -webkit-transform: translateY(13%) translateX(10%);
+            transform: translateY(13%) translateX(10%);
+  }
+  body #goods #goodsList div {
+    margin: 3em 1.4em;
+  }
+  body #myStack {
+    padding: 0 4%;
+    height: auto;
+  }
+  body #myStack #tracks #track {
+    margin: 3vh auto;
+  }
+  body #portfolio {
+    padding: 2% 3%;
+  }
+  body #portfolio::before {
+    display: none;
+  }
+  body #portfolio #portfolioList #portFolioOne, body #portfolio #portfolioList #portFolioTwo, body #portfolio #portfolioList #portFolioThree {
+    padding: 3em 0 0em 0;
+    display: block;
+  }
+  body #portfolio #portfolioList #portFolioOne #portfolioBlockImg, body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg, body #portfolio #portfolioList #portFolioThree #portfolioBlockImg {
+    height: 25vh;
+    width: 45vh;
+    margin-bottom: 3em;
+  }
+  body #portfolio #portfolioList #portFolioOne #portfolioBlockText h1, body #portfolio #portfolioList #portFolioTwo #portfolioBlockText h1, body #portfolio #portfolioList #portFolioThree #portfolioBlockText h1 {
+    margin-bottom: 0.8em;
+  }
+  body #testimony {
+    padding: 0;
+  }
+  body #testimony #testimonyCards {
+    margin: 0 0em 0 3em;
+  }
+  body #testimony #testimonyCards .testimonyCard {
+    width: 45vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+  body header {
+    position: fixed;
+    z-index: 2000;
+  }
+  body header .headerContainer {
+    display: -ms-grid;
+    display: grid;
+    width: 100vw;
+    -ms-grid-columns: 90% 10%;
+        grid-template-columns: 90% 10%;
+    padding: 6px;
+    position: relative;
+    z-index: 0;
+  }
+  body header #menuItems {
+    width: 65%;
+    margin: 6em auto 2em auto;
+  }
+  body header .headerContainer {
+    -ms-grid-columns: 80.5% 20.5%;
+        grid-template-columns: 80.5% 20.5%;
+    padding: 10px;
+  }
+  body header .headerContainer .headerLogo {
+    width: 50px;
+    height: 50px;
+  }
+  body header .headerContainer .headerMenuIcon {
+    width: 50px;
+    height: 50px;
+  }
+  body #showcase #showcaseHeading {
+    padding: 12em 8px;
+  }
+  body #showcase #showcaseHeading::after {
+    display: none;
+  }
+  body #showcase #showcaseHeading p:nth-child(1) {
+    font-size: 0.73em;
+  }
+  body #showcase #showcaseHeading h1:nth-child(2) {
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  body #showcase #showcaseHeading p:nth-child(3) {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 2em;
+  }
+  body #showcase #showcaseHeading a, body #showcase #showcaseHeading button {
+    font-size: 0.9em;
+  }
+  body #showcase #showcaseHeading #showcaseContactLinks {
+    width: 80%;
+  }
+  body #showcase #showcaseHeading #showcaseContactLinks a {
+    width: 20px;
+    height: 20px;
+  }
+  body #showcase #showcaseAside {
+    position: relative;
+  }
+  body #quote {
+    padding: 0;
+    display: block;
+    text-align: right;
+    height: auto;
+  }
+  body #quote div {
+    width: 100%;
+    font-size: 0.8em;
+  }
+  body #quote div:nth-child(1) {
+    padding: 5px;
+    margin: 0 0 auto 0;
+    color: transparent;
+    text-align: right;
+    width: 80%;
+  }
+  body #quote div:nth-child(1)::after {
+    width: 100px;
+    height: 100px;
+    right: 20%;
+    top: 200%;
+  }
+  body #quote #quoteTwo {
+    padding: 5px 0px 3em 0;
+    margin-top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  body #goods {
+    height: auto;
+  }
+  body #goods::after {
+    width: 100px;
+    height: 100px;
+    top: -3%;
+    left: 0;
+  }
+  body #goods #goodsList {
+    -webkit-transform: translateY(3%) translateX(8%);
+            transform: translateY(3%) translateX(8%);
+    padding: 3px;
+    display: block;
+    width: 90vw;
+  }
+  body #goods #goodsList div {
+    margin: 7em 0 4em 0;
+    padding: 4px;
+  }
+  body #goods #goodsList div h1::before {
+    left: -4%;
+  }
+  body #myStack {
+    height: auto;
+    padding: 0;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+  body #myStack .stackHead {
+    font-size: 1.5em;
+  }
+  body #myStack #tracks #track {
+    width: 90%;
+    margin: 6vh auto;
+  }
+  body #portfolio {
+    padding: 4% 0%;
+  }
+  body #portfolio::before {
+    display: none;
+  }
+  body #portfolio #portfolioHead {
+    font-size: 1.5em;
+    margin-bottom: 0.9em;
+    padding: 5px;
+  }
+  body #portfolio #portfolioList #portFolioOne,
+  body #portfolio #portfolioList #portFolioTwo,
+  body #portfolio #portfolioList #portFolioThree,
+  body #portfolio #portfolioList #portFolioFour,
+  body #portfolio #portfolioList #portFolioFive,
+  body #portfolio #portfolioList #portFolioSix {
+    margin-bottom: 4em;
+    display: block;
+    padding: 5px;
+  }
+  body #portfolio #portfolioList #portFolioOne #portfolioBlockImg,
+  body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg,
+  body #portfolio #portfolioList #portFolioThree #portfolioBlockImg,
+  body #portfolio #portfolioList #portFolioFour #portfolioBlockImg,
+  body #portfolio #portfolioList #portFolioFive #portfolioBlockImg,
+  body #portfolio #portfolioList #portFolioSix #portfolioBlockImg {
+    width: 94%;
+    height: 25vh;
+    margin-bottom: 2em;
+  }
+  body #portfolio #portfolioList #portFolioOne #portfolioBlockImg::after,
+  body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg::after,
+  body #portfolio #portfolioList #portFolioThree #portfolioBlockImg::after,
+  body #portfolio #portfolioList #portFolioFour #portfolioBlockImg::after,
+  body #portfolio #portfolioList #portFolioFive #portfolioBlockImg::after,
+  body #portfolio #portfolioList #portFolioSix #portfolioBlockImg::after {
+    right: -7%;
+  }
+  body #portfolio #portfolioList #portFolioOne #portfolioBlockText h1,
+  body #portfolio #portfolioList #portFolioTwo #portfolioBlockText h1,
+  body #portfolio #portfolioList #portFolioThree #portfolioBlockText h1,
+  body #portfolio #portfolioList #portFolioFour #portfolioBlockText h1,
+  body #portfolio #portfolioList #portFolioFive #portfolioBlockText h1,
+  body #portfolio #portfolioList #portFolioSix #portfolioBlockText h1 {
+    margin-bottom: 0.3em;
+  }
+  body #testimony {
+    padding: 5px;
+  }
+  body #testimony #testimonyHead {
+    font-size: 1.5em;
+  }
+  body #testimony #testimonyCards {
+    display: block;
+  }
+  body #testimony #testimonyCards .testimonyCard {
+    width: 100vw;
+    margin: 7em auto;
+  }
+  body #testimony #testimonyCards .testimonyCard #testimonyCardImg {
+    top: -18%;
+    left: 70%;
+  }
+  body #testimony #testimonyCards .testimonyCard #testimonyCardTxt {
+    width: 90%;
+    margin: auto;
+  }
+  body #contact .contactHeading h1 {
+    font-size: 2.3em;
+  }
+  body #contact .contactHeading p {
+    font-size: 0.73em;
+  }
+  body #contact form {
+    width: 98%;
+  }
+  body #contact form div input, body #contact form div textarea {
+    margin: 1.5em 0;
+    width: 90%;
+    font-size: 0.82em;
+  }
+  body footer {
+    padding-top: 30%;
+  }
+  body footer #footerHead #footerLink {
+    width: 40%;
+    font-size: 1.1em;
+    display: block;
+    text-align: left;
+  }
+  body footer #footerHead #footerLink a {
+    margin: 1.7em 0;
+  }
+  body footer #footerHead #socialLink {
+    width: 40%;
+    grid-gap: 3em;
+  }
+  body footer #copyright {
+    font-size: .8em;
+  }
+}
+
+@-webkit-keyframes downloadAnimation {
+  0% {
+    opacity: 1;
+    top: 20%;
+  }
+  25% {
+    top: 30%;
+    opacity: 0.2;
+  }
+  50% {
+    top: 60%;
+    opacity: 0;
+  }
+  75% {
+    top: 18%;
+    opacity: 0;
+  }
+  100% {
+    top: 27%;
+    opacity: 1;
+  }
+}
+
+@keyframes downloadAnimation {
+  0% {
+    opacity: 1;
+    top: 20%;
+  }
+  25% {
+    top: 30%;
+    opacity: 0.2;
+  }
+  50% {
+    top: 60%;
+    opacity: 0;
+  }
+  75% {
+    top: 18%;
+    opacity: 0;
+  }
+  100% {
+    top: 27%;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes rolls {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rolls {
+  from {
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=index.css.map */

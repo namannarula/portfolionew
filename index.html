@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>James Akpan</title>
+  <link rel='stylesheet' href='./index.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src='https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js'></script>
+  <script src='https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js'></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+  <script src="./index.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500,900&display=swap' rel='stylesheet'> 
+  <meta name="theme-color" content="#510A32">  
+</head>
+<body>
+  <header>
+    <div class='headerContainer'>
+      <div class='headerLogo'></div>
+      <div class='headerMenuIcon'>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id='menuItems'>
+      <div id='menuItemLinks'>
+        <a href='./assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf' download="James Akpan. Front-end Web Developer- Curriculum vitae.pdf">Résumé</a>
+        <a href='#'>Blog</a>
+        <a href='#portfolio' id='showWorks'>Works</a>
+      </div>
+      <div style="margin-top: 2em; width: 100%; text-align: left; color: white; font-size: 1.2em; font-weight: bolder;"><p>Say Hello. 👋 </p></div>
+      <div id='menuItemContact'>
+        <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='fotterlnkdn'></a>
+        <a href='https://github.com/codiejay' id='fottergthb'></a>
+        <a href='https://twitter.com/jamesakpan016' id='fottertwt'></a>
+        <a href='https://www.instagram.com/jamescancode/' id='fotterig'></a>
+        <a href='mailto:jamesakpan016@gmail.com'></a>
+      </div>
+    </div>
+  </header>
+  <div id='intersector'></div>
+  <main>
+    <section id='showcase'>
+      <div id='showcaseHeading'>
+        <p>Hello There, I'm</p>
+        <h1>James Akpan.</h1>
+        <p>-A FrontEnd Developer.</p>
+        <div id='showcaseContactLinks'>
+          <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='fotterlnkdn'></a>
+          <a href='https://github.com/codiejay' id='fottergthb'></a>
+          <a href='https://twitter.com/jamesakpan016' id='fottertwt'></a>
+          <a href='https://www.instagram.com/jamescancode/' id='fotterig'></a>
+          <a href='mailto:jamesakpan016@gmail.com'></a>
+        </div>
+        <a href='./assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf' download="James Akpan. Front-end Web Developer- Curriculum vitae.pdf"><button>Download Résumé</button> </a>
+      </div>
+      <div id='showcaseAside'>
+        <!-- <div id='socialIcons'>
+          <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='lnkdn'></a>
+          <a href='https://github.com/codiejay' id='gthb'></a>
+          <a href='https://twitter.com/jamesakpan016' id='twt'></a>
+          <a href='https://www.instagram.com/jamescancode/' id='ig'></a>
+        </div> -->
+      </div>
+    </section>
+    <div id='newAboutSection'>
+      <div id="innerAbtSession">
+        <div id="nwAbtImg"></div>
+        <div id="pointer"></div>
+        <div id="pointer"></div>
+      </div>
+    </div>
+    <section id='goods'>
+      <div id='goodsList'>
+        <div id='goodOne'>
+          <h1>Critical Thinking.</h1>
+          <p>Through repeatedly trying to solve algorithms, I have come to love the process of problem-solving.
+             It also made me think deeper about problems and I often try my best to to find and implement the best solution available.
+             But sometime I realize some problemes are beyond my ability and so I talk to those advanced in the field to help.</p>
+        </div>
+        <div id='goodTwo'>
+          <h1>Friendly Designing</h1>
+          <p>
+            Regardless of the fact of how designing of an app might be, I have come to 
+            learn that sometimes, FUNCTION is greater than DESIGN. 
+            This has helped me to build moderately aesthetic site but also
+             allowing them to be accessible and friendly to most users. I am not Perfect.
+          </p>
+        </div>
+        <div id='goodThree'>
+          <h1>People-Person.</h1>
+          <p>I love people. Good People. I enjoy having chats with fellow humans 
+            and honestly listening to them,
+             learning from them and giving my 2cents when needed.
+             In a Group, I wouldnt say I would be the most Liked, but I would be one of the most approachable
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id='skills'>
+    <div id='skillsHeading'>
+      <h1>MY <br> TECH STACK</h1>
+    </div>
+      <div id='skillsContent'>
+        <div class="skillBox" id='html'>
+          <div id='skillBoxIcon'>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div id='skillBoxText'>
+            <h1>HTML</h1>
+            <p>
+              HTML happens to be one of my favorite things to write. Learning and using HTML made it even more interestiong, allowing us to build even better accessible sites. I have been writing HTML for over 2 years now.  
+            </p>
+          </div>
+       </div>
+       <div class="skillBox" id='css'>
+         <div id='skillBoxIcon'>
+           <div></div>
+         </div>
+         <div id='skillBoxText'>
+           <h1>CSS</h1>
+           <p>
+             Since I was 7, I always wanted to be an artist and feel creative, but still felt I wasn't so good at drawing. 
+             When I clocked 20 years old and saw the magic I could do with CSS,
+             I felt a rush of hope, I realized I could build and design things people would love visually and enjoy using 
+           </p>
+         </div>
+      </div>
+      <div class="skillBox" id='js'>
+        <div id='skillBoxIcon'>
+          <div class="containJsIcons">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div id='skillBoxText'>
+         <h1>JAVASCRIPT</h1>
+         <p>
+           To be honest, I disliked Javascript when I began. But along the way, I realized how powerful it makes me(us). 
+           The first time I displayed my users' current time with JS, I felt like a pro hacker 
+           and realizing that is the least of things I can do makes me excited about 
+           what I can accomplish with Javascript. 
+         </p>
+       </div>
+    </div>
+    <div class="skillBox" id='react'>
+     <div id='skillBoxIcon'>
+       <div></div>
+     </div>
+     <div id='skillBoxText'>
+       <h1>REACT</h1>
+       <p>
+         Writing HTML is fun, but sometimes you have to write components multiple times. This is where REACT.JS comes 
+         to the rescue. Learning react has made me able to build reusable and even more powerful components, 
+         it has also aided me to build really fast web apps that make life easier for me and the users. 
+       </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section id="tools">
+    <h1>TOOLS</h1>
+    <div class="toolsBoxes">
+      <div id="toolsBox">
+        <div id="toolsBoxImg"></div>
+        <h2>FIREBASE</h2>
+        <P>(BASS)</P>
+      </div>
+      <div id="toolsBox">
+        <div id="toolsBoxImg"></div>
+        <h2>FIGMA</h2>
+        <P>(DESIGN TOOL)</P>
+      </div>
+      <div id="toolsBox">
+        <div id="toolsBoxImg"></div>
+        <h2>VSCODE</h2>
+        <P>(CODE EDITOR)</P>
+      </div>
+      <div id="toolsBox">
+        <div id="toolsBoxImg"></div>
+        <h2>GIT</h2>
+        <P>(VERSION CONTROL)</P>
+      </div>
+      <div id="toolsBox">
+        <div id="toolsBoxImg"></div>
+        <h2>GITHUB</h2>
+        <P>(CODE HOSTING)</P>
+      </div>
+    </div>
+  </section>
+    <section id='portfolio'> 
+      <div id='portfolioHead'>
+        <h1>MY <br> PORTFOLIO</h1>
+      </div>
+
+      <div id='portfolioList'>
+        <div id='portFolioSeven'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>React Todo App</h1>
+            <p>
+              To better my react skills and learn more, my mentor advised me to
+              build a todo app that would take users tasks and also save them. I integrated firebase's firestore and authentication to save new users and display their saved tasks whenever they visit - This made me learn a whole lot about how react and firebase works! 
+            </p>
+            <a href='https://todojames.netlify.app/#/'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+        
+        <div id='portFolioOne'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>Tayo Aina</h1>
+            <p>Working with Mr. Tayo. I built possibly one of the most minimal 
+              site I have ever made. It showcased his craft clearly to every 
+              first time visitor and allowed them contact him easy!
+            </p>
+            <a href='http://tayoaina.com/'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+        <div id='portFolioTwo'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>SNEUB.IO</h1>
+            <p>MR. Shane is a Full Stack Technologist, so you can imagine the joy when he hired me to work for him. 
+              The site hightlight all his goodies. TIP:  Mr. Shane is also my mentor and Boss.
+            </p>
+            <a href='https://github.com/codiejay/sneub'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+        <div id='portFolioFour'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>UNSPLASH API</h1>
+            <p>
+              Over one weekend I learned to make request to Unsplash's API, I then made a small web application that allows you search for images and it returns results in form of images from Unsplash! Was my first time using the fetch API
+            </p>
+            <a href='https://codiejay.github.io/firstAPI/'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+        <div id='portFolioFive'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>A DICTIONARY</h1>
+            <p>
+              I stored some couple of words on Firebase (firestore), and using my JS skills, I made a web app that fetched a word and it meaning and displayed it using html and css. This project made me more proficient and familiar with FIREBASE. 
+            </p>
+            <a href='https://codiejay.github.io/dict/'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+        <div id='portFolioSix'>
+          <div id='portfolioBlockImg'></div>
+          <div id='portfolioBlockText'>
+            <h1>WATCHING THE ISS</h1>
+            <p>
+              The international Space Station (ISS) orbits the earts at least 17 times a day, as it goes through, it sends it real-time cordinates and other useful data back to a database here on earth, I then used the FETCH API to fetch it current position on earth's orbit then using leaflet I plot out exactly where it is in earth's orbit on a map! I enjoyed doing this one.
+            </p>
+            <a href='https://codiejay.github.io/issPosition/'><button>VISIT SITE</button></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section id='testimony'>
+      <div id='testimonyHead'>
+        <h1>WHAT PEOPLE <br>SAY</h1>
+      </div>
+      <div id='testimonyCards'>
+        <div class='testimonyCard'>
+          <div id=testimonyCardImg></div>
+          <div id='testimonyCardTxt'>
+            <p>
+              And now you have written an article, a nice one and added it to the library and you want people to come and read 
+              the article you have placed somewhere inside the big library 
+              And now you have written an article, a nice one and added it to the library and 
+            </p>
+            <div id='testimonyCardName'>
+              <h1>MR. SHANE N.</h1>
+              <p>Full Stack Technologist</p>
+            </div>
+          </div>
+        </div>
+        <div class='testimonyCard'>
+          <div id=testimonyCardImg></div>
+          <div id='testimonyCardTxt'>
+            <p>
+              And now you have written an article, a nice one and added it to the library and you want people to come and read 
+              the article you have placed somewhere inside the big library 
+              And now you have written an article, a nice one and added it to the library and 
+            </p>
+            <div id='testimonyCardName'>
+              <h1>Mr. Tayo Aina</h1>
+              <p>FILMMAKER / YOUTUBER</p>
+            </div>
+          </div>
+        </div>  
+        <div class='testimonyCard'>
+          <div id=testimonyCardImg></div>
+          <div id='testimonyCardTxt'>
+            <p>
+              And now you have written an article, a nice one and added it to the library and you want people to come and read 
+              the article you have placed somewhere inside the big library 
+              And now you have written an article, a nice one and added it to the library and 
+            </p>
+            <div id='testimonyCardName'>
+              <h1>Mr. Arstrong A.</h1>
+              <p>Football Analyst</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section id='contact'>
+      <div class='contactHeading'>
+        <h1>SAY HELLO</h1>
+        <p>Want to reach out for hiring or just want to talk?  Do feel free to send a message, would respeond ASAP!</p>
+      </div>
+
+      <form id='usersForm' novalidate>
+        <div class='userNameInput'>
+          <input required type='text' placeholder='Your Name' >
+        </div>
+        <div class='userEmailInput'>
+          <input required type='text' placeholder='Your Email'>
+        </div>
+        <div class='userMessageInput'>
+          <textarea required placeholder='Your Message Goes Here'  cols='30' rows='10'></textarea>
+        </div>
+        <button>TAKE MY MESSAGE! </button>      
+        <div id='errorMessage'>
+          <p>There was an error with your input, please recheck</p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div id='footerHead'>
+      <div id='footerLink'>
+        <a href='./assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf' download="James Akpan. Front-end Web Developer- Curriculum vitae.pdf">résumé</a>
+        <a href='#quote'>ABOUT</a>
+        <a href='#'>PORTFOLIO</a>
+        <a href='#'>BLOG</a>
+      </div>
+      <div id='socialLink'>
+        <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='fotterlnkdn'></a>
+        <a href='https://github.com/codiejay' id='fottergthb'></a>
+        <a href='https://twitter.com/jamesakpan016' id='fottertwt'></a>
+        <a href='https://www.instagram.com/jamescancode/' id='fotterig'></a>
+      </div>
+    </div>
+    <div id='copyright'>© DESIGNED AND DEVED BY JAMES AKPAN 2020</div>
+  </footer>
+</body>
+</html>
