@@ -4,8 +4,13 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-  <title>Naman Narula</title>
+  <title>James Akpan</title>
   <link rel='stylesheet' href='./index.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src='https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js'></script>
+  <script src='https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js'></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
   <script src="./index.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,500,900&display=swap' rel='stylesheet'> 
   <meta name="theme-color" content="#510A32">  
@@ -23,16 +28,16 @@
     <div id='menuItems'>
       <div id='menuItemLinks'>
         <a href='./assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf' download="James Akpan. Front-end Web Developer- Curriculum vitae.pdf">Résumé</a>
-        <a href='https://namantechlabs.com'>Blog</a>
+        <a href='#'>Blog</a>
         <a href='#portfolio' id='showWorks'>Works</a>
       </div>
       <div style="margin-top: 2em; width: 100%; text-align: left; color: white; font-size: 1.2em; font-weight: bolder;"><p>Say Hello. 👋 </p></div>
       <div id='menuItemContact'>
-        <a href='https://www.linkedin.com/in/namannarula/' id='fotterlnkdn'></a>
-        <a href='https://gitlab.com/namannarula' id='fottergthb'></a>
-        <a href='https://twitter.com/namannarula' id='fottertwt'></a>
-        <a href='https://www.instagram.com/namanarulaa/' id='fotterig'></a>
-        <a href='mailto:naman@namantechlabs.com'></a>
+        <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='fotterlnkdn'></a>
+        <a href='https://github.com/codiejay' id='fottergthb'></a>
+        <a href='https://twitter.com/jamesakpan016' id='fottertwt'></a>
+        <a href='https://www.instagram.com/jamescancode/' id='fotterig'></a>
+        <a href='mailto:jamesakpan016@gmail.com'></a>
       </div>
     </div>
   </header>
@@ -41,14 +46,14 @@
     <section id='showcase'>
       <div id='showcaseHeading'>
         <p>Hello There, I'm</p>
-        <h1>Naman Narula.</h1>
-        <p>-IoT Developer, Cloud Architect & an all-round techie.</p>
+        <h1>James Akpan.</h1>
+        <p>-A FrontEnd Developer.</p>
         <div id='showcaseContactLinks'>
-          <a href='https://www.linkedin.com/in/namannarula/' id='fotterlnkdn'></a>
-        <a href='https://gitlab.com/namannarula' id='fottergthb'></a>
-        <a href='https://twitter.com/namannarula' id='fottertwt'></a>
-        <a href='https://www.instagram.com/namanarulaa/' id='fotterig'></a>
-        <a href='mailto:naman@namantechlabs.com'></a>
+          <a href='https://www.linkedin.com/in/akpan-james-147158139/' id='fotterlnkdn'></a>
+          <a href='https://github.com/codiejay' id='fottergthb'></a>
+          <a href='https://twitter.com/jamesakpan016' id='fottertwt'></a>
+          <a href='https://www.instagram.com/jamescancode/' id='fotterig'></a>
+          <a href='mailto:jamesakpan016@gmail.com'></a>
         </div>
         <a href='./assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf' download="James Akpan. Front-end Web Developer- Curriculum vitae.pdf"><button>Download Résumé</button> </a>
       </div>
@@ -262,7 +267,7 @@
       </div>
     </section>
 
- <!-- <section id='testimony'>
+    <!-- <section id='testimony'>
       <div id='testimonyHead'>
         <h1>WHAT PEOPLE <br>SAY</h1>
       </div>
@@ -310,7 +315,29 @@
           </div>
         </div>
       </div>
-    </section> --!>
+    </section> -->
+    <section id='contact'>
+      <div class='contactHeading'>
+        <h1>SAY HELLO</h1>
+        <p>Want to reach out for hiring or just want to talk?  Do feel free to send a message, would respeond ASAP!</p>
+      </div>
+
+      <form id='usersForm' novalidate>
+        <div class='userNameInput'>
+          <input required type='text' placeholder='Your Name' >
+        </div>
+        <div class='userEmailInput'>
+          <input required type='text' placeholder='Your Email'>
+        </div>
+        <div class='userMessageInput'>
+          <textarea required placeholder='Your Message Goes Here'  cols='30' rows='10'></textarea>
+        </div>
+        <button>TAKE MY MESSAGE! </button>      
+        <div id='errorMessage'>
+          <p>There was an error with your input, please recheck</p>
+        </div>
+      </form>
+    </section>
   </main>
 
   <footer>
