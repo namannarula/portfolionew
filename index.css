@@ -90,28 +90,29 @@ body header #menuItems #menuItemContact a {
   text-align: center;
 }
 
-body header #menuItems #menuItemContact a:nth-child(2) {
+/* body header #menuItems #menuItemContact a:nth-child(2) {
   background: url("../assets/github.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
+ */
 
-body header #menuItems #menuItemContact a:nth-child(3) {
+body header #menuItems #menuItemContact a:nth-child(2) {
   background: url("../assets/twitter.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-body header #menuItems #menuItemContact a:nth-child(4) {
+body header #menuItems #menuItemContact a:nth-child(3) {
   background: url("../assets/instagram.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-body header #menuItems #menuItemContact a:nth-child(5) {
+body header #menuItems #menuItemContact a:nth-child(4) {
   background: url("../assets/emailIcon.svg");
   background-position: center;
   background-size: contain;
@@ -293,22 +294,23 @@ body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(1) {
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
+/* body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
   background: url("../assets/github.svg") center no-repeat;
   background-size: contain;
 }
+ */
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(3) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
   background: url("../assets/twitter.svg") center no-repeat;
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(4) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(3) {
   background: url("../assets/instagram.svg") center no-repeat;
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(5) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(4) {
   background: url("../assets/emailIcon.svg") center no-repeat;
   background-size: contain;
 }
@@ -344,11 +346,12 @@ body #showcase #showcaseAside #socialIcons #lnkdn {
   background-size: cover;
 }
 
-body #showcase #showcaseAside #socialIcons #gthb {
+/* body #showcase #showcaseAside #socialIcons #gthb {
   background: url("../assets/github.svg");
   background-position: center;
   background-size: cover;
 }
+ */
 
 body #showcase #showcaseAside #socialIcons #twt {
   background: url("../assets/twitter.svg");
@@ -1154,20 +1157,26 @@ body footer #socialLink a {
           justify-content: center;
 }
 
-body footer #socialLink a:nth-child(2) {
+/* body footer #socialLink a:nth-child(2) {
   background: url("../assets/github.svg");
   background-position: center;
   background-size: cover;
 }
+ */
 
-body footer #socialLink a:nth-child(3) {
+body footer #socialLink a:nth-child(2) {
   background: url("../assets/twitter.svg");
   background-position: center;
   background-size: cover;
 }
 
-body footer #socialLink a:nth-child(4) {
+body footer #socialLink a:nth-child(3) {
   background: url("../assets/instagram.svg");
+  background-position: center;
+  background-size: cover;
+}
+body footer #socialLink a:nth-child(4) {
+  background: url("../assets/emailIcon.svg");
   background-position: center;
   background-size: cover;
 }
