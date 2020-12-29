@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment=" adjust">
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="footer fix 22020202">
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
-      <workItem from="1609002189410" duration="13426000" />
+      <workItem from="1609002189410" duration="13795000" />
     </task>
     <task id="LOCAL-00001" summary="commenting form">
       <created>1609002416922</created>
@@ -355,7 +355,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609236968774</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="footer fix">
+      <created>1609241085199</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241085199</updated>
+    </task>
+    <task id="LOCAL-00045" summary="footer fix ;">
+      <created>1609241235295</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241235295</updated>
+    </task>
+    <task id="LOCAL-00046" summary="footer fix 22020202">
+      <created>1609241358730</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609241358730</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,9 +395,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="commenting showcaseAside" />
-    <MESSAGE value="i messed up" />
-    <MESSAGE value="contact links" />
     <MESSAGE value="blog" />
     <MESSAGE value="logo" />
     <MESSAGE value="logo fixing" />
@@ -399,7 +417,10 @@
     <MESSAGE value="mail and other git logos" />
     <MESSAGE value="paddong adjust" />
     <MESSAGE value=" adjust" />
-    <option name="LAST_COMMIT_MESSAGE" value=" adjust" />
+    <MESSAGE value="footer fix" />
+    <MESSAGE value="footer fix ;" />
+    <MESSAGE value="footer fix 22020202" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer fix 22020202" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609092368327">
@@ -414,10 +435,10 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609236971980">
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609241360050">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609236971980" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609241360050" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609002347419">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
