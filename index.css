@@ -92,11 +92,11 @@ body header #menuItems #menuItemContact a {
 
 body header #menuItems #menuItemContact a:nth-child(2) {
   width: 45px;
-  height: 45px;
+  height: 40px;
   display: block;
   text-decoration: none;
   background: url("../assets/github.svg");
-  /* background-position: center;  */
+  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
