@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="i messed up">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="github icons fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
-      <workItem from="1609002189410" duration="2066000" />
+      <workItem from="1609002189410" duration="9668000" />
     </task>
     <task id="LOCAL-00001" summary="commenting form">
       <created>1609002416922</created>
@@ -85,7 +90,140 @@
       <option name="project" value="LOCAL" />
       <updated>1609002876540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="contact links">
+      <created>1609050544670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609050544670</updated>
+    </task>
+    <task id="LOCAL-00007" summary="contact links">
+      <created>1609055325789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609055325789</updated>
+    </task>
+    <task id="LOCAL-00008" summary="blog">
+      <created>1609055521914</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609055521914</updated>
+    </task>
+    <task id="LOCAL-00009" summary="logo">
+      <created>1609056321284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609056321284</updated>
+    </task>
+    <task id="LOCAL-00010" summary="logo fixing">
+      <created>1609056424146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609056424146</updated>
+    </task>
+    <task id="LOCAL-00011" summary="logo fixing">
+      <created>1609056535766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609056535766</updated>
+    </task>
+    <task id="LOCAL-00012" summary="photo fixing">
+      <created>1609056679138</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609056679139</updated>
+    </task>
+    <task id="LOCAL-00013" summary="photo fixing">
+      <created>1609088223360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609088223360</updated>
+    </task>
+    <task id="LOCAL-00014" summary="removing goods section">
+      <created>1609091148949</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609091148950</updated>
+    </task>
+    <task id="LOCAL-00015" summary="gitlab logo">
+      <created>1609091497023</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609091497023</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commenting all git links">
+      <created>1609091814754</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609091814754</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixing git icons">
+      <created>1609092216737</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092216737</updated>
+    </task>
+    <task id="LOCAL-00018" summary="idk menu is missing">
+      <created>1609092486657</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092486657</updated>
+    </task>
+    <task id="LOCAL-00019" summary="idk menu is missing">
+      <created>1609092803375</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1609092803375</updated>
+    </task>
+    <task id="LOCAL-00020" summary="github icons fix">
+      <created>1609232664465</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232664465</updated>
+    </task>
+    <task id="LOCAL-00021" summary="github icons fix">
+      <created>1609232718262</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232718262</updated>
+    </task>
+    <task id="LOCAL-00022" summary="github icons fix">
+      <created>1609232766545</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232766545</updated>
+    </task>
+    <task id="LOCAL-00023" summary="github icons fix">
+      <created>1609232886333</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232886333</updated>
+    </task>
+    <task id="LOCAL-00024" summary="github icons fix">
+      <created>1609232946137</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232946137</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,21 +241,41 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="commenting form" />
     <MESSAGE value="uncommenting showcaseAside" />
     <MESSAGE value="commenting showcaseAside" />
     <MESSAGE value="i messed up" />
-    <option name="LAST_COMMIT_MESSAGE" value="i messed up" />
+    <MESSAGE value="contact links" />
+    <MESSAGE value="blog" />
+    <MESSAGE value="logo" />
+    <MESSAGE value="logo fixing" />
+    <MESSAGE value="photo fixing" />
+    <MESSAGE value="removing goods section" />
+    <MESSAGE value="gitlab logo" />
+    <MESSAGE value="commenting all git links" />
+    <MESSAGE value="fixing git icons" />
+    <MESSAGE value="idk menu is missing" />
+    <MESSAGE value="github icons fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="github icons fix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="100" y="123" width="1720" height="810" key="DiffContextDialog" timestamp="1609050533390">
+    <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609092368327">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="100" y="123" width="1720" height="810" key="DiffContextDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609050533390" />
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2" timestamp="1609002878685">
+    <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.1010@0.23.1920.1010" timestamp="1609092368327" />
+    <state x="100" y="123" width="1720" height="810" key="DiffContextDialog" timestamp="1609092561916">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="560" y="268" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609002878685" />
+    <state x="100" y="123" width="1720" height="810" key="DiffContextDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092561916" />
+    <state x="739" y="172" key="RollbackChangesDialog" timestamp="1609092564865">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609232948153">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609232948153" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609002347419">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
