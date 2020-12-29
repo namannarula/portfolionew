@@ -1128,7 +1128,7 @@ body footer #footerHead #footerLink a::before {
   display: block;
   background-color: #EE4540;
   position: absolute;
-  top: 100%;
+  top: 10%;
   right: 30%;
   opacity: 0;
   -webkit-transition: all 0.6s;
