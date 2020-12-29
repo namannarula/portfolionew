@@ -95,10 +95,8 @@ body header #menuItems #menuItemContact a:nth-child(2) {
   height: 45px;
   display: block;
   text-decoration: none;
-  position: relative /* Declared position allows for location changes */
-  top: -2555px;
   background: url("../assets/github.svg");
-  background-position: center;
+  /* background-position: center;  */
   background-size: contain;
   background-repeat: no-repeat;
 }
