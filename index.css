@@ -95,8 +95,6 @@ body header #menuItems #menuItemContact a:nth-child(2) {
   height: 40px;
   display: block;
   text-decoration: none;
-  position: relative
-  bottom: 55px
   background: url("../assets/github.svg");
   background-position: center;
   background-size: contain;
