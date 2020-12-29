@@ -1148,7 +1148,7 @@ body footer #socialLink a {
   display: block;
   width: 20px;
   height: 20px;
-  padding-left: 5000px;
+  padding-left: 50px;
   background: url("../assets/linkedin.svg");
   background-position: center;
   background-size: cover;
