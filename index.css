@@ -90,7 +90,7 @@ body header #menuItems #menuItemContact a {
   text-align: center;
 }
 
-body header #menuItems #menuItemContact a:nth-child(2) {
+/*body header #menuItems #menuItemContact a:nth-child(2) {
   width: 50px;
   height: 40px;
   display: block;
@@ -100,22 +100,23 @@ body header #menuItems #menuItemContact a:nth-child(2) {
   background-size: contain;
   background-repeat: no-repeat;
 }
+ */
 
-body header #menuItems #menuItemContact a:nth-child(3) {
+body header #menuItems #menuItemContact a:nth-child(2) {
   background: url("../assets/twitter.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-body header #menuItems #menuItemContact a:nth-child(4) {
+body header #menuItems #menuItemContact a:nth-child(3) {
   background: url("../assets/instagram.svg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-body header #menuItems #menuItemContact a:nth-child(5) {
+body header #menuItems #menuItemContact a:nth-child(4) {
   background: url("../assets/emailIcon.svg");
   background-position: center;
   background-size: contain;
