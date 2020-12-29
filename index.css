@@ -1165,19 +1165,19 @@ body footer #socialLink a:nth-child(2) {
   background-size: cover;
 }
 
-body footer #socialLink a:nth-child(2) {
+body footer #socialLink a:nth-child(3) {
   background: url("../assets/twitter.svg");
   background-position: center;
   background-size: cover;
 }
 
-body footer #socialLink a:nth-child(3) {
+body footer #socialLink a:nth-child(4) {
   background: url("../assets/instagram.svg");
   background-position: center;
   background-size: cover;
 }
 
-body footer #socialLink a:nth-child(4) {
+body footer #socialLink a:nth-child(5) {
   background: url("../assets/emailIcon.svg");
   background-position: center;
   background-size: cover;
