@@ -93,6 +93,7 @@ body header #menuItems #menuItemContact a {
 body header #menuItems #menuItemContact a:nth-child(2) {
   width: 45px;
   height: 45px;
+  padding-bottom: 10px;
   display: block;
   text-decoration: none;
   background: url("../assets/github.svg");
