@@ -1090,7 +1090,7 @@ body #contact #errorMessage {
 
 body footer {
   background-color: #510A32;
-  padding-bottom: 2em;
+  padding-bottom: 0em;
   text-align: center;
   -webkit-clip-path: polygon(0 0, 100% 23%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 23%, 100% 100%, 0% 100%);
