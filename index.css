@@ -1137,11 +1137,11 @@ body footer #footerHead #footerLink a::before {
 
 body footer #socialLink {
   width: 35%;
-  margin: 15em auto;
+  margin: 10em auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 body footer #socialLink a {
