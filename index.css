@@ -298,22 +298,22 @@ body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(1) {
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
+/*body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
   background: url("../assets/github.svg") center no-repeat;
   background-size: contain;
-}
+}*/
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(3) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(2) {
   background: url("../assets/twitter.svg") center no-repeat;
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(4) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(3) {
   background: url("../assets/instagram.svg") center no-repeat;
   background-size: contain;
 }
 
-body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(5) {
+body #showcase #showcaseHeading #showcaseContactLinks a:nth-child(4) {
   background: url("../assets/emailIcon.svg") center no-repeat;
   background-size: contain;
 }
