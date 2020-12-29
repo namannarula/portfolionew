@@ -1159,11 +1159,11 @@ body footer #socialLink a {
   justify-content: center;
 }
 
-/*body footer #socialLink a:nth-child(2) {
-  background: url("../assets/github.svg");
+body footer #socialLink a:nth-child(2) {
+  background: url("../assets/facebook.svg");
   background-position: center;
   background-size: cover;
-} */
+}
 
 body footer #socialLink a:nth-child(2) {
   background: url("../assets/twitter.svg");
