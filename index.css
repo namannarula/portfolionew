@@ -1136,8 +1136,8 @@ body footer #footerHead #footerLink a::before {
 }
 
 body footer #socialLink {
-  width: 45%;
-  margin: 8em auto;
+  width: 35%;
+  margin: 15em auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
