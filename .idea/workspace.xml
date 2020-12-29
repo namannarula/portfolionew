@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="reverting changes" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing facebook logo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,28 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
-      <workItem from="1609002189410" duration="15572000" />
-    </task>
-    <task id="LOCAL-00005" summary="i messed up">
-      <created>1609002876540</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1609002876540</updated>
-    </task>
-    <task id="LOCAL-00006" summary="contact links">
-      <created>1609050544670</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1609050544670</updated>
-    </task>
-    <task id="LOCAL-00007" summary="contact links">
-      <created>1609055325789</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1609055325789</updated>
+      <workItem from="1609002189410" duration="15997000" />
     </task>
     <task id="LOCAL-00008" summary="blog">
       <created>1609055521914</created>
@@ -395,7 +374,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609250528544</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="adding facebook logo">
+      <created>1609250691821</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250691821</updated>
+    </task>
+    <task id="LOCAL-00055" summary="adding facebook logo">
+      <created>1609250713089</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250713089</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fixing facebook logo">
+      <created>1609250759236</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1609250759236</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,8 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="removing goods section" />
-    <MESSAGE value="gitlab logo" />
     <MESSAGE value="commenting all git links" />
     <MESSAGE value="fixing git icons" />
     <MESSAGE value="idk menu is missing" />
@@ -439,7 +437,9 @@
     <MESSAGE value="facebook" />
     <MESSAGE value="facebook no" />
     <MESSAGE value="reverting changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverting changes" />
+    <MESSAGE value="adding facebook logo" />
+    <MESSAGE value="fixing facebook logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing facebook logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609092368327">
@@ -454,10 +454,10 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609250535691">
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609250760748">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609250535691" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609250760748" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>

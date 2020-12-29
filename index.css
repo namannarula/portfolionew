@@ -1160,6 +1160,9 @@ body footer #socialLink a {
 }
 
 body footer #socialLink a:nth-child(2) {
+  display: block;
+  width: 20px;
+  height: 20px;
   background: url("../assets/facebook.svg");
   background-position: center;
   background-size: cover;
