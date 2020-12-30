@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing skill box margins">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="removing all skill box icons">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
-      <workItem from="1609002189410" duration="18033000" />
-    </task>
-    <task id="LOCAL-00018" summary="idk menu is missing">
-      <created>1609092486657</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1609092486657</updated>
+      <workItem from="1609002189410" duration="19276000" />
     </task>
     <task id="LOCAL-00019" summary="idk menu is missing">
       <created>1609092803375</created>
@@ -397,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609309582083</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="removing all skill box icons">
+      <created>1609309746588</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1609309746588</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="idk im stuck" />
     <MESSAGE value="eh" />
     <MESSAGE value="how" />
     <MESSAGE value="removing git logo" />
@@ -441,7 +440,8 @@
     <MESSAGE value="fixing skill box" />
     <MESSAGE value="still fixing skill box" />
     <MESSAGE value="fixing skill box margins" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing skill box margins" />
+    <MESSAGE value="removing all skill box icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing all skill box icons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609092368327">
@@ -456,10 +456,10 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609309583503">
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609309748321">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609309583503" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609309748321" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
