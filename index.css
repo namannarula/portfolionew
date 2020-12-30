@@ -1101,8 +1101,8 @@ body footer {
 body footer #footerHead #footerLink {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 75%;
   margin: 2em auto;
   text-transform: uppercase;
