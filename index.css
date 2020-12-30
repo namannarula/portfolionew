@@ -135,7 +135,7 @@ body header .headerContainer {
   transition: all 0.3s;
 }
 
-body header .headerContainer .headerLogo {
+/*body header .headerContainer .headerLogo {
   width: 70px;
   height: 70px;
   background-image: url("../assets/personalLogo.svg");
@@ -144,10 +144,10 @@ body header .headerContainer .headerLogo {
   background-repeat: no-repeat;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
 body header .headerContainer .headerMenuIcon {
-  width: 70px;
+          width: 70px;
   height: 70px;
   border: 1px solid white;
   padding-top: 30%;
@@ -1101,8 +1101,8 @@ body footer {
 body footer #footerHead #footerLink {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   width: 75%;
   margin: 2em auto;
   text-transform: uppercase;
