@@ -481,7 +481,7 @@ body #skills #skillsContent .skillBox {
 body #skills #skillsContent .skillBox #skillBoxIcon {
   display: block;
   width: 30%;
-  height: 20px;
+  height: 0px;
   background-color: transparent;
   margin-bottom: 1.4em;
 }
