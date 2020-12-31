@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fr --&gt; 1fr css line 1143" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="no" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,20 +51,6 @@
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
-    </task>
-    <task id="LOCAL-00032" summary="idk im stuck">
-      <created>1609234277472</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1609234277472</updated>
-    </task>
-    <task id="LOCAL-00033" summary="eh">
-      <created>1609234352084</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1609234352084</updated>
     </task>
     <task id="LOCAL-00034" summary="how">
       <created>1609234437924</created>
@@ -395,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609397516234</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="I HATE THE FOOTER">
+      <created>1609397609040</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1609397609041</updated>
+    </task>
+    <task id="LOCAL-00082" summary="no">
+      <created>1609397736333</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1609397736334</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,8 +415,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="reverting changes" />
-    <MESSAGE value="adding facebook logo" />
     <MESSAGE value="fixing facebook logo" />
     <MESSAGE value="still fixing facebook logo" />
     <MESSAGE value="forgot to add facebook asset" />
@@ -440,7 +438,9 @@
     <MESSAGE value="adding resume to menu" />
     <MESSAGE value="adding link 5 to footer" />
     <MESSAGE value="fr --&gt; 1fr css line 1143" />
-    <option name="LAST_COMMIT_MESSAGE" value="fr --&gt; 1fr css line 1143" />
+    <MESSAGE value="I HATE THE FOOTER" />
+    <MESSAGE value="no" />
+    <option name="LAST_COMMIT_MESSAGE" value="no" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -455,10 +455,10 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609397518581">
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609397738182">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609397518581" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609397738182" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
