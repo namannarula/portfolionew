@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="adding resume to menu">
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fr --&gt; 1fr css line 1143" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,20 +51,6 @@
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
-    </task>
-    <task id="LOCAL-00030" summary=":(oo">
-      <created>1609233532210</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1609233532210</updated>
-    </task>
-    <task id="LOCAL-00031" summary="idk im stuck">
-      <created>1609234163747</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1609234163747</updated>
     </task>
     <task id="LOCAL-00032" summary="idk im stuck">
       <created>1609234277472</created>
@@ -398,7 +381,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609397211897</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="adding link 5 to footer">
+      <created>1609397364907</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1609397364907</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fr --&gt; 1fr css line 1143">
+      <created>1609397516234</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1609397516234</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,8 +415,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="facebook" />
-    <MESSAGE value="facebook no" />
     <MESSAGE value="reverting changes" />
     <MESSAGE value="adding facebook logo" />
     <MESSAGE value="fixing facebook logo" />
@@ -443,7 +438,9 @@
     <MESSAGE value="adding facebook icon" />
     <MESSAGE value="fixing footer link" />
     <MESSAGE value="adding resume to menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding resume to menu" />
+    <MESSAGE value="adding link 5 to footer" />
+    <MESSAGE value="fr --&gt; 1fr css line 1143" />
+    <option name="LAST_COMMIT_MESSAGE" value="fr --&gt; 1fr css line 1143" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -458,10 +455,10 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609397213652">
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2" timestamp="1609397518581">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
-    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609397213652" />
+    <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609397518581" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
