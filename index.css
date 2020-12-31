@@ -1160,18 +1160,27 @@ body footer #socialLink a {
 }
 
 body footer #socialLink a:nth-child(2) {
-  background: url("../assets/twitter.svg");
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url("../assets/facebook.svg");
   background-position: center;
   background-size: cover;
 }
 
 body footer #socialLink a:nth-child(3) {
-  background: url("../assets/instagram.svg");
+  background: url("../assets/twitter.svg");
   background-position: center;
   background-size: cover;
 }
 
 body footer #socialLink a:nth-child(4) {
+  background: url("../assets/instagram.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+body footer #socialLink a:nth-child(5) {
   background: url("../assets/emailIcon.svg");
   background-position: center;
   background-size: cover;
