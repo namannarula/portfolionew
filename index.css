@@ -694,7 +694,7 @@ body #portfolio #portfolioHead {
   position: relative;
 }
 
-body #portfolio #portfolioList #portFolioOne,
+/*body #portfolio #portfolioList #portFolioOne,
 body #portfolio #portfolioList #portFolioTwo,
 body #portfolio #portfolioList #portFolioThree,
 body #portfolio #portfolioList #portFolioFour,
@@ -715,7 +715,7 @@ body #portfolio #portfolioList #portFolioSeven {
   grid-gap: 10em;
   z-index: 100;
   position: relative;
-  z-index: 0;
+  z-index: 0;*/
 }
 
 /*body #portfolio #portfolioList #portFolioOne #portfolioBlockImg,
