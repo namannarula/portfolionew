@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="portfolio  img fix 4">
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="portfolio  img fix 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,35 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
-      <workItem from="1610961035446" duration="937000" />
-    </task>
-    <task id="LOCAL-00044" summary="footer fix">
-      <created>1609241085199</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1609241085199</updated>
-    </task>
-    <task id="LOCAL-00045" summary="footer fix ;">
-      <created>1609241235295</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1609241235295</updated>
-    </task>
-    <task id="LOCAL-00046" summary="footer fix 22020202">
-      <created>1609241358730</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1609241358730</updated>
-    </task>
-    <task id="LOCAL-00047" summary="footer fix 98thousand">
-      <created>1609241454312</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1609241454312</updated>
+      <workItem from="1610961035446" duration="1255000" />
     </task>
     <task id="LOCAL-00048" summary="footer fix">
       <created>1609241736215</created>
@@ -398,7 +368,35 @@
       <option name="project" value="LOCAL" />
       <updated>1610961972086</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="portfolio  img fix 5">
+      <created>1610962072829</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1610962072830</updated>
+    </task>
+    <task id="LOCAL-00094" summary="portfolio  img fix 6">
+      <created>1610962204386</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1610962204387</updated>
+    </task>
+    <task id="LOCAL-00095" summary="portfolio  img fix 7">
+      <created>1610962269703</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1610962269703</updated>
+    </task>
+    <task id="LOCAL-00096" summary="portfolio  img fix 8">
+      <created>1610962372508</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1610962372508</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,10 +416,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fixing skill box margins" />
-    <MESSAGE value="removing all skill box icons" />
-    <MESSAGE value="removing header logo" />
-    <MESSAGE value=" header" />
     <MESSAGE value=" header 21111" />
     <MESSAGE value=" header 211" />
     <MESSAGE value="footer" />
@@ -443,7 +437,11 @@
     <MESSAGE value="portfolio  img fix2" />
     <MESSAGE value="portfolio  img fix 3" />
     <MESSAGE value="portfolio  img fix 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="portfolio  img fix 4" />
+    <MESSAGE value="portfolio  img fix 5" />
+    <MESSAGE value="portfolio  img fix 6" />
+    <MESSAGE value="portfolio  img fix 7" />
+    <MESSAGE value="portfolio  img fix 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio  img fix 8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -458,11 +456,11 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1610962054724">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1610962383328">
       <screen x="0" y="23" width="1920" height="1017" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962054724" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962383328" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
