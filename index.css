@@ -683,7 +683,7 @@ body #portfolio {
   position: relative;
 }
 
-/*body #portfolio::before {
+body #portfolio::before {
   display: none;
 }
 
@@ -692,7 +692,7 @@ body #portfolio #portfolioHead {
   color: white;
   margin-bottom: 2em;
   position: relative;
-}*/
+}
 
 /*body #portfolio #portfolioList #portFolioOne,
 body #portfolio #portfolioList #portFolioTwo,
