@@ -712,7 +712,7 @@ body #portfolio #portfolioList #portFolioSeven {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  grid-gap: 10em;
+  grid-gap: 2em;
   z-index: 100;
   position: relative;
   z-index: 0;
