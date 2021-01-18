@@ -676,14 +676,14 @@ body #tools .toolsBoxes #toolsBox:nth-child(5) #toolsBoxImg {
   background-position: center;
 }
 
-/*body #portfolio {
+body #portfolio {
   background-color: #EE4540;
   font-family: "Montserrat", sans-serif;
   padding: 5% 7%;
   position: relative;
 }
 
-body #portfolio::before {
+/*body #portfolio::before {
   display: none;
 }
 
