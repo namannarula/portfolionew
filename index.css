@@ -704,8 +704,8 @@ body #portfolio #portfolioList #portFolioSeven {
   color: white;
   display: -ms-grid;
   display: grid;
-/*  -ms-grid-columns: 2fr 1.6fr;
-  grid-template-columns: 2fr 1.6fr;*/
+-ms-grid-columns: 2fr 1.6fr;
+  grid-template-columns: 2fr 1.6fr;
   margin: 5em 0 10em 0;
   -ms-flex-line-pack: distribute;
   align-content: space-around;
