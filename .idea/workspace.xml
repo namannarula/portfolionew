@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="clearing mess" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="wow embed on phone is just sad">
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,14 +54,7 @@
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
-      <workItem from="1611229502579" duration="3676000" />
-    </task>
-    <task id="LOCAL-00074" summary="footer links adding margin">
-      <created>1609326189137</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1609326189137</updated>
+      <workItem from="1611229502579" duration="3837000" />
     </task>
     <task id="LOCAL-00075" summary="fixing footer">
       <created>1609396630724</created>
@@ -397,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611232843803</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="wow embed on phone is just sad">
+      <created>1611233848985</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1611233848985</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +419,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 5" />
     <MESSAGE value="portfolio  img fix 6" />
     <MESSAGE value="portfolio  img fix 7" />
     <MESSAGE value="portfolio  img fix 8" />
@@ -442,7 +443,8 @@
     <MESSAGE value="embed 2 fix" />
     <MESSAGE value="embed 3" />
     <MESSAGE value="clearing mess" />
-    <option name="LAST_COMMIT_MESSAGE" value="clearing mess" />
+    <MESSAGE value="wow embed on phone is just sad" />
+    <option name="LAST_COMMIT_MESSAGE" value="wow embed on phone is just sad" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -457,12 +459,12 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611232846070">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611233850912">
       <screen x="0" y="23" width="1920" height="1018" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611232846070" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611233850912" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
