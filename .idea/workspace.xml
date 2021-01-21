@@ -22,7 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="nope" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,35 +54,7 @@
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
-      <workItem from="1611229502579" duration="1792000" />
-    </task>
-    <task id="LOCAL-00061" summary="removing about section">
-      <created>1609309095004</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1609309095005</updated>
-    </task>
-    <task id="LOCAL-00062" summary="removing icons from skill box">
-      <created>1609309254713</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1609309254713</updated>
-    </task>
-    <task id="LOCAL-00063" summary="fixing skill box">
-      <created>1609309383615</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1609309383615</updated>
-    </task>
-    <task id="LOCAL-00064" summary="still fixing skill box">
-      <created>1609309443520</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1609309443520</updated>
+      <workItem from="1611229502579" duration="2141000" />
     </task>
     <task id="LOCAL-00065" summary="fixing skill box margins">
       <created>1609309506735</created>
@@ -397,7 +371,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611231190989</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="fix embed">
+      <created>1611231433618</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1611231433618</updated>
+    </task>
+    <task id="LOCAL-00111" summary="almost done baby!">
+      <created>1611231480144</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1611231480144</updated>
+    </task>
+    <task id="LOCAL-00112" summary="almost done baby!">
+      <created>1611231599752</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1611231599752</updated>
+    </task>
+    <task id="LOCAL-00113" summary="fixing">
+      <created>1611231646071</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1611231646071</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,9 +419,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="I HATE THE FOOTER" />
-    <MESSAGE value="no" />
-    <MESSAGE value="resume opens in new tab" />
     <MESSAGE value="download resume" />
     <MESSAGE value="download resume fix" />
     <MESSAGE value="download resume / new tab" />
@@ -442,7 +441,10 @@
     <MESSAGE value="button is too large help pls" />
     <MESSAGE value="ok i think i got it" />
     <MESSAGE value="nope" />
-    <option name="LAST_COMMIT_MESSAGE" value="nope" />
+    <MESSAGE value="fix embed" />
+    <MESSAGE value="almost done baby!" />
+    <MESSAGE value="fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -457,12 +459,12 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611231194050">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611231648839">
       <screen x="0" y="23" width="1920" height="1018" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611231194050" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611231648839" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
