@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="embed 2 fix">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="clearing mess" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,21 +52,7 @@
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
-      <workItem from="1611229502579" duration="3057000" />
-    </task>
-    <task id="LOCAL-00072" summary=" header 211">
-      <created>1609318587929</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1609318587929</updated>
-    </task>
-    <task id="LOCAL-00073" summary="footer">
-      <created>1609319393438</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1609319393439</updated>
+      <workItem from="1611229502579" duration="3676000" />
     </task>
     <task id="LOCAL-00074" summary="footer links adding margin">
       <created>1609326189137</created>
@@ -399,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611232390616</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="embed 3">
+      <created>1611232753785</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1611232753785</updated>
+    </task>
+    <task id="LOCAL-00122" summary="clearing mess">
+      <created>1611232843803</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1611232843803</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,8 +417,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 3" />
-    <MESSAGE value="portfolio  img fix 4" />
     <MESSAGE value="portfolio  img fix 5" />
     <MESSAGE value="portfolio  img fix 6" />
     <MESSAGE value="portfolio  img fix 7" />
@@ -444,7 +440,9 @@
     <MESSAGE value="opens in new tab" />
     <MESSAGE value="embed 2" />
     <MESSAGE value="embed 2 fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="embed 2 fix" />
+    <MESSAGE value="embed 3" />
+    <MESSAGE value="clearing mess" />
+    <option name="LAST_COMMIT_MESSAGE" value="clearing mess" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -459,12 +457,12 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611232391884">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611232846070">
       <screen x="0" y="23" width="1920" height="1018" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611232391884" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611232846070" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
