@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="visioral fix">
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="button is too large help pls">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +54,7 @@
       <updated>1609002186369</updated>
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
-      <workItem from="1611229502579" duration="601000" />
-    </task>
-    <task id="LOCAL-00054" summary="adding facebook logo">
-      <created>1609250691821</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1609250691821</updated>
-    </task>
-    <task id="LOCAL-00055" summary="adding facebook logo">
-      <created>1609250713089</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1609250713089</updated>
-    </task>
-    <task id="LOCAL-00056" summary="fixing facebook logo">
-      <created>1609250759236</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1609250759236</updated>
+      <workItem from="1611229502579" duration="1122000" />
     </task>
     <task id="LOCAL-00057" summary="still fixing facebook logo">
       <created>1609251036499</created>
@@ -399,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1611229985326</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="visioral fix">
+      <created>1611230256360</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1611230256360</updated>
+    </task>
+    <task id="LOCAL-00104" summary=" 2">
+      <created>1611230366585</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1611230366585</updated>
+    </task>
+    <task id="LOCAL-00105" summary="button is too large help pls">
+      <created>1611230451686</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1611230451686</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,8 +419,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="fixing footer link" />
-    <MESSAGE value="adding resume to menu" />
     <MESSAGE value="adding link 5 to footer" />
     <MESSAGE value="fr --&gt; 1fr css line 1143" />
     <MESSAGE value="I HATE THE FOOTER" />
@@ -444,7 +442,9 @@
     <MESSAGE value="portfolio  img fix 12" />
     <MESSAGE value="visioral added" />
     <MESSAGE value="visioral fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="visioral fix" />
+    <MESSAGE value=" 2" />
+    <MESSAGE value="button is too large help pls" />
+    <option name="LAST_COMMIT_MESSAGE" value="button is too large help pls" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -459,12 +459,12 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611229986760">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611230453054">
       <screen x="0" y="23" width="1920" height="1018" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611229986760" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611230453054" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
