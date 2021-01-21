@@ -718,7 +718,7 @@ body #portfolio #portfolioList #portFolioSeven {
   z-index: 0;
 }
 
-/*body #portfolio #portfolioList #portFolioOne #portfolioBlockImg,
+body #portfolio #portfolioList #portFolioOne #portfolioBlockImg,
 body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg,
 body #portfolio #portfolioList #portFolioThree #portfolioBlockImg,
 body #portfolio #portfolioList #portFolioFour #portfolioBlockImg,
@@ -732,7 +732,7 @@ body #portfolio #portfolioList #portFolioSeven #portfolioBlockImg {
   background-position: center;
   background-size: contain;
   position: relative;
-}*/
+}
 
 /*body #portfolio #portfolioList #portFolioOne #portfolioBlockImg::after,
 body #portfolio #portfolioList #portFolioTwo #portfolioBlockImg::after,
