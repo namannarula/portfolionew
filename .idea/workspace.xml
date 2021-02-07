@@ -22,8 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing portfolio text&#10;removing skill box text">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="&#10;fix skill box text">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,14 +55,7 @@
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
       <workItem from="1611229502579" duration="6711000" />
-      <workItem from="1612676858329" duration="290000" />
-    </task>
-    <task id="LOCAL-00079" summary="adding link 5 to footer">
-      <created>1609397364907</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1609397364907</updated>
+      <workItem from="1612676858329" duration="1010000" />
     </task>
     <task id="LOCAL-00080" summary="fr --&gt; 1fr css line 1143">
       <created>1609397516234</created>
@@ -401,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612677148441</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="&#10;fix skill box text">
+      <created>1612677199896</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1612677199896</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +420,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 7" />
     <MESSAGE value="portfolio  img fix 8" />
     <MESSAGE value="portfolio  img fix 9" />
     <MESSAGE value="portfolio  img fix 10" />
@@ -446,7 +444,8 @@
     <MESSAGE value="clearing mess" />
     <MESSAGE value="wow embed on phone is just sad" />
     <MESSAGE value="fixing portfolio text&#10;removing skill box text" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing portfolio text&#10;removing skill box text" />
+    <MESSAGE value="&#10;fix skill box text" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;fix skill box text" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -461,12 +460,13 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1611234243555">
-      <screen x="0" y="23" width="1920" height="1018" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612677201472">
+      <screen x="0" y="23" width="1920" height="1020" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611234243555" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1612677201472" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
