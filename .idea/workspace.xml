@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="wow embed on phone is just sad">
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing portfolio text&#10;removing skill box text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -56,13 +56,7 @@
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
       <workItem from="1611229502579" duration="6711000" />
-    </task>
-    <task id="LOCAL-00078" summary="adding resume to menu">
-      <created>1609397211897</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1609397211897</updated>
+      <workItem from="1612676858329" duration="290000" />
     </task>
     <task id="LOCAL-00079" summary="adding link 5 to footer">
       <created>1609397364907</created>
@@ -400,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611234242122</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="fixing portfolio text&#10;removing skill box text">
+      <created>1612677148440</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1612677148441</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +421,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 6" />
     <MESSAGE value="portfolio  img fix 7" />
     <MESSAGE value="portfolio  img fix 8" />
     <MESSAGE value="portfolio  img fix 9" />
@@ -445,7 +445,8 @@
     <MESSAGE value="embed 3" />
     <MESSAGE value="clearing mess" />
     <MESSAGE value="wow embed on phone is just sad" />
-    <option name="LAST_COMMIT_MESSAGE" value="wow embed on phone is just sad" />
+    <MESSAGE value="fixing portfolio text&#10;removing skill box text" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing portfolio text&#10;removing skill box text" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
