@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="deleted useless files and updated resume">
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="added target blank to links and removed unnessasary commented code">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,21 +57,7 @@
       <workItem from="1611229502579" duration="6711000" />
       <workItem from="1612676858329" duration="1818000" />
       <workItem from="1613028985645" duration="5000" />
-      <workItem from="1614870731654" duration="3678000" />
-    </task>
-    <task id="LOCAL-00092" summary="portfolio  img fix 4">
-      <created>1610961972085</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1610961972086</updated>
-    </task>
-    <task id="LOCAL-00093" summary="portfolio  img fix 5">
-      <created>1610962072829</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1610962072830</updated>
+      <workItem from="1614870731654" duration="4101000" />
     </task>
     <task id="LOCAL-00094" summary="portfolio  img fix 6">
       <created>1610962204386</created>
@@ -402,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614878108700</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="added my works href and first website">
+      <created>1614878428046</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1614878428046</updated>
+    </task>
+    <task id="LOCAL-00142" summary="added target blank to links and removed unnessasary commented code">
+      <created>1614878702277</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1614878702277</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,8 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="ok i think i got it" />
-    <MESSAGE value="nope" />
     <MESSAGE value="fix embed" />
     <MESSAGE value="almost done baby!" />
     <MESSAGE value="fixing" />
@@ -447,7 +445,9 @@
     <MESSAGE value="added ai/ml" />
     <MESSAGE value="added nlp" />
     <MESSAGE value="deleted useless files and updated resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted useless files and updated resume" />
+    <MESSAGE value="added my works href and first website" />
+    <MESSAGE value="added target blank to links and removed unnessasary commented code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added target blank to links and removed unnessasary commented code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -462,13 +462,13 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1614878110875">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1614878704993">
       <screen x="0" y="23" width="1920" height="1020" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611234243555" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1614878110875" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1614878704993" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
