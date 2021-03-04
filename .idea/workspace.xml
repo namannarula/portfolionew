@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="&#10;fix skill box text">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing IoT skill box link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +55,9 @@
       <workItem from="1609002189410" duration="24108000" />
       <workItem from="1610961035446" duration="1776000" />
       <workItem from="1611229502579" duration="6711000" />
-      <workItem from="1612676858329" duration="1010000" />
-    </task>
-    <task id="LOCAL-00080" summary="fr --&gt; 1fr css line 1143">
-      <created>1609397516234</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1609397516234</updated>
-    </task>
-    <task id="LOCAL-00081" summary="I HATE THE FOOTER">
-      <created>1609397609040</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1609397609041</updated>
-    </task>
-    <task id="LOCAL-00082" summary="no">
-      <created>1609397736333</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1609397736334</updated>
-    </task>
-    <task id="LOCAL-00083" summary="resume opens in new tab">
-      <created>1609398152645</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1609398152645</updated>
+      <workItem from="1612676858329" duration="1818000" />
+      <workItem from="1613028985645" duration="5000" />
+      <workItem from="1614870731654" duration="484000" />
     </task>
     <task id="LOCAL-00084" summary="download resume">
       <created>1609398218868</created>
@@ -400,7 +374,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612677199896</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="&#10;Iot skill box text">
+      <created>1612681144209</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1612681144209</updated>
+    </task>
+    <task id="LOCAL-00130" summary="&#10;fix Iot skill box text">
+      <created>1612681180497</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1612681180497</updated>
+    </task>
+    <task id="LOCAL-00131" summary="fixing IoT skill box link">
+      <created>1612681236798</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1612681236798</updated>
+    </task>
+    <task id="LOCAL-00132" summary="fixing IoT skill box link">
+      <created>1612681434966</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1612681434966</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,9 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 8" />
-    <MESSAGE value="portfolio  img fix 9" />
-    <MESSAGE value="portfolio  img fix 10" />
     <MESSAGE value="portfolio  img fix 11" />
     <MESSAGE value="portfolio  img fix 12" />
     <MESSAGE value="visioral added" />
@@ -445,7 +444,10 @@
     <MESSAGE value="wow embed on phone is just sad" />
     <MESSAGE value="fixing portfolio text&#10;removing skill box text" />
     <MESSAGE value="&#10;fix skill box text" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;fix skill box text" />
+    <MESSAGE value="&#10;Iot skill box text" />
+    <MESSAGE value="&#10;fix Iot skill box text" />
+    <MESSAGE value="fixing IoT skill box link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing IoT skill box link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -460,13 +462,13 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612677201472">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612681436229">
       <screen x="0" y="23" width="1920" height="1020" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611234243555" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1612677201472" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1612681436229" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
