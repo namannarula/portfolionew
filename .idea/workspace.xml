@@ -22,7 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="adding aws skill">
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="testing layout 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,28 +58,7 @@
       <workItem from="1611229502579" duration="6711000" />
       <workItem from="1612676858329" duration="1818000" />
       <workItem from="1613028985645" duration="5000" />
-      <workItem from="1614870731654" duration="768000" />
-    </task>
-    <task id="LOCAL-00086" summary="download resume fix">
-      <created>1610961098046</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1610961098047</updated>
-    </task>
-    <task id="LOCAL-00087" summary="download resume / new tab">
-      <created>1610961172472</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1610961172472</updated>
-    </task>
-    <task id="LOCAL-00088" summary="portfolio  1">
-      <created>1610961550305</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1610961550306</updated>
+      <workItem from="1614870731654" duration="2568000" />
     </task>
     <task id="LOCAL-00089" summary="portfolio  img fix">
       <created>1610961655798</created>
@@ -402,7 +382,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614875313271</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="testing layout">
+      <created>1614875347594</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875347594</updated>
+    </task>
+    <task id="LOCAL-00136" summary="testing layout">
+      <created>1614875415316</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875415316</updated>
+    </task>
+    <task id="LOCAL-00137" summary="testing layout 2">
+      <created>1614875471213</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875471213</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,8 +423,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 12" />
-    <MESSAGE value="visioral added" />
     <MESSAGE value="visioral fix" />
     <MESSAGE value=" 2" />
     <MESSAGE value="button is too large help pls" />
@@ -447,7 +446,9 @@
     <MESSAGE value="&#10;fix Iot skill box text" />
     <MESSAGE value="fixing IoT skill box link" />
     <MESSAGE value="adding aws skill" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding aws skill" />
+    <MESSAGE value="testing layout" />
+    <MESSAGE value="testing layout 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing layout 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -462,13 +463,13 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1612681436229">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1614875472282">
       <screen x="0" y="23" width="1920" height="1020" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611234243555" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1612681436229" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1614875472282" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
