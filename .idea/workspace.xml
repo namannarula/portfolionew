@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="fixing IoT skill box link">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="adding aws skill">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +57,7 @@
       <workItem from="1611229502579" duration="6711000" />
       <workItem from="1612676858329" duration="1818000" />
       <workItem from="1613028985645" duration="5000" />
-      <workItem from="1614870731654" duration="484000" />
-    </task>
-    <task id="LOCAL-00084" summary="download resume">
-      <created>1609398218868</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1609398218868</updated>
-    </task>
-    <task id="LOCAL-00085" summary="download resume fix">
-      <created>1609398335219</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1609398335219</updated>
+      <workItem from="1614870731654" duration="768000" />
     </task>
     <task id="LOCAL-00086" summary="download resume fix">
       <created>1610961098046</created>
@@ -402,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612681434966</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="adding aws skill">
+      <created>1614875183946</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875183947</updated>
+    </task>
+    <task id="LOCAL-00134" summary="adding aws skill">
+      <created>1614875313271</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875313271</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="portfolio  img fix 11" />
     <MESSAGE value="portfolio  img fix 12" />
     <MESSAGE value="visioral added" />
     <MESSAGE value="visioral fix" />
@@ -447,7 +446,8 @@
     <MESSAGE value="&#10;Iot skill box text" />
     <MESSAGE value="&#10;fix Iot skill box text" />
     <MESSAGE value="fixing IoT skill box link" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing IoT skill box link" />
+    <MESSAGE value="adding aws skill" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding aws skill" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
