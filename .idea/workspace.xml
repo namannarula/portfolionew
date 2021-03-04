@@ -22,8 +22,46 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="added ai/ml">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="7f7eebb8-9f3f-4e4d-b388-226cf6b858cc" name="Default Changelist" comment="added nlp">
+      <change beforePath="$PROJECT_DIR$/assets/JAMES AKPAN.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/James Akpan. Front-end Web Developer- Curriculum vitae.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Resume.PDF" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Resume.PDF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/armstrongHeadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/binning/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/dictionaryProject.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/aboutol.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/armstrongHeadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/cssLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/htmlLogo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/javascriptLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/mdnLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/reactLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/sneubheadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackFIGMA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackFIREBASE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackGIT.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackGITHUB.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackVSCODE.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/stackoverflowLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tayoHeadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/treehouseLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/udemyLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/wordpressLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/youtubeLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/issProject.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photowaka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/photowakademosite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quote(1).svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/reacttodobyjames.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/showcaseHeadshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sneubdemosite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sneubheadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/snueb.io.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tayoAina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tayoAinaDemo(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tayoAinaDemo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/tayoHeadshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/unsplashAPIProject.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +95,7 @@
       <workItem from="1611229502579" duration="6711000" />
       <workItem from="1612676858329" duration="1818000" />
       <workItem from="1613028985645" duration="5000" />
-      <workItem from="1614870731654" duration="2911000" />
-    </task>
-    <task id="LOCAL-00090" summary="portfolio  img fix2">
-      <created>1610961716861</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1610961716861</updated>
+      <workItem from="1614870731654" duration="3349000" />
     </task>
     <task id="LOCAL-00091" summary="portfolio  img fix 3">
       <created>1610961894051</created>
@@ -402,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614877324379</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="added nlp">
+      <created>1614877692327</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1614877692327</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +460,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value=" 2" />
     <MESSAGE value="button is too large help pls" />
     <MESSAGE value="ok i think i got it" />
     <MESSAGE value="nope" />
@@ -447,7 +484,8 @@
     <MESSAGE value="testing layout" />
     <MESSAGE value="testing layout 2" />
     <MESSAGE value="added ai/ml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ai/ml" />
+    <MESSAGE value="added nlp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nlp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="710" y="381" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609336123850">
@@ -462,13 +500,13 @@
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
     <state x="739" y="172" key="RollbackChangesDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1609092564865" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1614877326044">
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2" timestamp="1614877694488">
       <screen x="0" y="23" width="1920" height="1020" />
     </state>
     <state x="559" y="267" key="Vcs.Push.Dialog.v2/0.23.1920.1010@0.23.1920.1010" timestamp="1609398336577" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1017@0.23.1920.1017" timestamp="1610962783499" />
     <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1018@0.23.1920.1018" timestamp="1611234243555" />
-    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1614877326044" />
+    <state x="559" y="269" key="Vcs.Push.Dialog.v2/0.23.1920.1020@0.23.1920.1020" timestamp="1614877694488" />
     <state x="773" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609250463508">
       <screen x="0" y="23" width="1920" height="1010" />
     </state>
