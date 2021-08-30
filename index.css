@@ -186,7 +186,7 @@ body #showcase #showcaseHeading::after {
   display: block;
   content: '';
   top: 20%;
-  background: url("../assets/testShowcase.jpg");
+  background: url("../assets/testShowcase.jpeg");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
