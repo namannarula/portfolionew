@@ -240,8 +240,8 @@ body #showcase #showcaseHeading a:hover::after, body #showcase #showcaseHeading 
 }
 
 body #showcase #showcaseHeading a::after, body #showcase #showcaseHeading button::after {
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
   display: block;
   content: '';
   background: url("../assets/viewIcon.svg");
@@ -259,7 +259,6 @@ body #showcase #showcaseHeading a::before, body #showcase #showcaseHeading butto
   height: 20px;
   display: block;
   content: '';
-  background: #EE4540;
   background-position: center;
   background-size: cover;
   -webkit-transform: scale(1.59);
