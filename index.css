@@ -241,7 +241,7 @@ body #showcase #showcaseHeading a:hover::after, body #showcase #showcaseHeading 
 
 body #showcase #showcaseHeading a::after, body #showcase #showcaseHeading button::after {
   width: 32px;
-  height: 32px;
+  height: 20px;
   display: block;
   content: '';
   background: url("../assets/viewIcon.svg");
